@@ -1,3 +1,5 @@
-const getURL = (address, port, path) => `${address}:${port}${path}`;
+const getURL = (address, port, path) => {
+  return `${address}:${port}${path}`;
+}
 
 export default getURL;
